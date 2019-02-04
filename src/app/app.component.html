@@ -1,6 +1,6 @@
 <input id="operationInput" [(ngModel)]="operation.operacion" style="left: 200px;" value="">
 <label>{{result}}</label>
-<!-- <mat-grid-list cols=10 rowHeight="50px">
+<mat-grid-list cols=10 rowHeight="50px">
   <mat-grid-tile *ngFor="let tile of firstRow" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
     <button mat-button [style.background]="tile.color" (click)="addToOperation(tile.text)">{{tile.text}}</button>
   </mat-grid-tile>
@@ -24,4 +24,4 @@
     <mat-grid-tile *ngFor="let tile of fifthRow" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
       <button mat-button [style.background]="tile.color" (click)="addToOperation(tile.text)">{{tile.text}}</button>
     </mat-grid-tile>
-  </mat-grid-list> -->
+  </mat-grid-list>

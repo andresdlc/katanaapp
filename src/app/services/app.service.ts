@@ -14,6 +14,6 @@ export class AppService {
 
   getOperationResult(operation: Operation): Observable<Result> {
     //return this.httpClient.post("http://107.23.58.217/hello/calculadora", operation);
-    return this.httpClient.post("http://107.23.58.217/calculadora/hello/calculadora", operation);
+    return this.httpClient.post("http://localhost:8080/hello/calculadora", operation);
   }
 }
